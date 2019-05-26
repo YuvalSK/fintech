@@ -3,7 +3,7 @@ import pandas as pd
 
 def main():
 
-    df = pd.read_excel('Q3b.xlsx')
+    df = pd.read_excel('data/Q3b.xlsx')
     dif_avg = df['diff']
     s=100.0
     portfolio = 100.0
